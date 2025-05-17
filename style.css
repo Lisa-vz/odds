@@ -1,0 +1,190 @@
+.gallary img {
+    width: 100%;
+}
+
+
+.nav {
+  padding-top: 110px;
+}
+
+
+ul {
+  list-style-type: none;
+  margin:0;
+  padding:10px;
+  overflow: hidden;
+  background-color: #6a6a6ac0;
+  position: -webkit-sticky; /* Safari */
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-size: 25px;
+}
+
+/* The navigation menu */
+.navbar {
+  overflow: hidden;
+  background-color:#6a6a6ac0;; 
+  height: 80px;
+  padding-top: 20px;
+
+}
+
+
+/* Navigation links */
+.navbar a {
+  float: left;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-right: 1px solid #bbb;
+}
+
+/* The subnavigation menu */
+.subnav {
+  float: left;
+  overflow: hidden;
+   border-right: 1px solid #bbb;
+}
+
+/* Subnav button */
+.subnav .subnavbtn {
+  font-size: 25px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Add a red background color to navigation links on hover */
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: #eee;
+  color: black;
+}
+
+/* Style the subnav content - positioned absolute */
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color:#6a6a6ac0; ;
+  width: 100%;
+  z-index: 1;
+
+}
+
+/* Style the subnav links */
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+/* Add a grey background color on hover */
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.subnav:hover .subnav-content {
+  display: block;
+}
+
+
+
+
+
+li {
+  float: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color:#eee ;
+}
+
+li {
+  border-right: 1px solid #bbb;
+}
+
+h1{
+  font-size: 80px;
+  color:#008100;
+  text-align: center;
+}
+
+h2{
+  font-size: 60px;
+  color:#008100;
+   text-align: center;
+}
+
+h3{
+  font-size: 40px;
+  color: #008100;
+}
+
+
+.contact{
+  display: inline-block;
+  font-size: 18px;
+
+}
+
+.container{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #00810073;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+
+.odds{
+   display: block;
+  justify-content: space-evenly;
+  align-items: center;
+  border-color: #008100;
+  border-style: solid;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #bbbbbb83;
+   margin: 20px;
+}
+
+.laro{
+   display: block;
+  justify-content: space-evenly;
+  align-items: center;
+  border-color: #008100;
+  border-style: solid;
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #bbbbbb83;
+  margin: 20px;
+}
+
+.con {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+
+
